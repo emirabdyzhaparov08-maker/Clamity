@@ -49,6 +49,9 @@ namespace Clamity.Content.Items.Weapons.Summon.Whips
         public bool flipped = false;
         internal bool runOnce = true;
 
+        public float trainWidth = 10f;
+        public Color? trailLineColorOverride = null;
+
         internal ref float Timer => ref Projectile.ai[0];
 
         //ADDED BY OBAMA - looks like shit rn do not use 
@@ -251,7 +254,7 @@ namespace Clamity.Content.Items.Weapons.Summon.Whips
                     {
                         Vector2 currentTipPosition = GetTipPosition();
 
-                        TrailPoints.Add(currentTipPosition + Projectile.rotation.ToRotationVector2()/* + Main.rand.NextVector2CircularEdge(100, 100)*/);
+                        TrailPoints.Add(currentTipPosition + Projectile.rotation.ToRotationVector2() + TrainOffsetInTravel(currentTipPosition)/* + Main.rand.NextVector2CircularEdge(100, 100)*/);
 
                         if (TrailPoints.Count > 50)
                             TrailPoints.RemoveAt(0);
@@ -297,11 +300,14 @@ namespace Clamity.Content.Items.Weapons.Summon.Whips
             }
         }
 
-        public virtual float TrailWidth(float f, Vector2 vertexPos) => 10f * f;
-
-        public Color? trailLineColorOverride = null;
+        public virtual float TrailWidth(float f, Vector2 vertexPos) => trainWidth * f;
 
         public virtual Color TrailColor(float f, Vector2 vertexPos) => (trailLineColorOverride is null ? fishingLineColor : trailLineColorOverride.Value) * f;
+
+        public virtual Vector2 TrainOffsetInTravel(Vector2 currentTipPosition)
+        {
+            return Vector2.Zero;
+        }
 
         public virtual void DrawTrail()
         {
