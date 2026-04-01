@@ -9,6 +9,8 @@ Melee: {
 	EverestProjectile.DisplayName: Everest
 	ExoNewBeam.DisplayName: Exo Beam
 	ExoNewExplosion.DisplayName: Exo Explosion
+	EtherealKnivesProjectile.DisplayName: Ethereal Knives Projectile
+	HyperionProjectile.DisplayName: Hyperion Projectile
 	SubzeroSlicerProjectileSlash.DisplayName: Subzero Slicer Projectile Slash
 }
 
@@ -29,6 +31,9 @@ Ranged: {
 Magic: {
 	TheGeneratorSigil.DisplayName: The Generator Sigil
 	MoonstoneKnifeProjectile.DisplayName: Moonstone Knife
+	UnicronBeam.DisplayName: Unicron Beam
+	UnicronWingmanGrenade.DisplayName: Unicron Wingman Grenade
+	UnicronWingmanShot.DisplayName: Unicron Wingman Shot
 }
 
 Summon: {
@@ -86,3 +91,4 @@ SoulOfPyrogenSpear.DisplayName: Soul Of Pyrogen Spear
 PyrogenSummonAnimation.DisplayName: Pyrogen Summon Animation
 CyanSolutionProjectile.DisplayName: Cyan Solution
 HeavyMetalTrashCanPet.DisplayName: Mini Bocchi
+AncientConsoleProjectile.DisplayName: Ancient Console Projectile
