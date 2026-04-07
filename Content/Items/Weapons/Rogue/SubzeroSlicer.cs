@@ -28,7 +28,7 @@ namespace Clamity.Content.Items.Weapons.Rogue
         {
             Item.width = 1;
             Item.height = 1;
-            Item.rare = ModContent.RarityType<Violet>();
+            Item.rare = ModContent.RarityType<BurnishedAuric>();
             Item.value = CalamityGlobalItem.RarityVioletBuyPrice;
 
             Item.useStyle = ItemUseStyleID.Swing;
@@ -287,7 +287,7 @@ namespace Clamity.Content.Items.Weapons.Rogue
                         }
                         if (newTarget1 != null)
                         {
-                            Projectile.velocity = Projectile.velocity.RotateTowards(Projectile.AngleTo(newTarget1.Center), 0.2f);
+                            Projectile.velocity = CalamityUtils.RotateTowards(Projectile.velocity, Projectile.AngleTo(newTarget1.Center), 0.2f);
                             if (Projectile.Distance(newTarget1.Center) > 500)
                             {
                                 if (Projectile.velocity.Length() < 30)

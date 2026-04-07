@@ -39,11 +39,6 @@ WulfrumLeechDagger: {
 		'''
 }
 
-FrozenVolcano: {
-	DisplayName: Frozen Volcano
-	Tooltip: Launches flames
-}
-
 Everest: {
 	DisplayName: Everest
 	Tooltip: Fires a spread of volcanic fireballs

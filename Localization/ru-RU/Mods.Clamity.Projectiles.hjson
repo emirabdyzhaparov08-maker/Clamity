@@ -12,6 +12,7 @@ Melee: {
 	// EtherealKnivesProjectile.DisplayName: Ethereal Knives Projectile
 	// HyperionProjectile.DisplayName: Hyperion Projectile
 	// SubzeroSlicerProjectileSlash.DisplayName: Subzero Slicer Projectile Slash
+	// GreatestPeakMistProjectile.DisplayName: Greatest Peak Mist Projectile
 }
 
 Ranged: {

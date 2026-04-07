@@ -39,11 +39,6 @@ WulfrumLeechDagger: {
 		'''
 }
 
-FrozenVolcano: {
-	DisplayName: Замороженный вулкан
-	Tooltip: Запускает огонь
-}
-
 Everest: {
 	DisplayName: Эверест
 	Tooltip: Выпускает разбросом вулканические огненые шары

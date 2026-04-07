@@ -508,8 +508,6 @@ namespace Clamity
             if (shop.NpcType == NPCID.Steampunker)
                 shop.Add<CyanSolution>(new Condition(Language.GetOrRegister("Mods.Clamity.Misc.DefeatedWoB"), () => ClamitySystem.downedWallOfBronze));
             if (shop.NpcType == ModContent.NPCType<Archmage>())
-                shop.Add<EnchantedMetal>(new Condition(Language.GetOrRegister("Mods.Clamity.Misc.GeneratedFrozenHell"), () => !ClamitySystem.generatedFrozenHell || ClamityConfig.Instance.PermafrostSoldEnchantedMetal), new Condition(Language.GetOrRegister("Mods.Clamity.Misc.DefeatedWoB"), () => ClamitySystem.downedWallOfBronze));
-            if (shop.NpcType == ModContent.NPCType<DILF>())
                 shop.Add<EndobsidianBar>(new Condition(Language.GetOrRegister("Mods.Clamity.Misc.GeneratedFrozenHell"), () => !ClamitySystem.generatedFrozenHell || ClamityConfig.Instance.PermafrostSoldEnchantedMetal), new Condition(Language.GetOrRegister("Mods.Clamity.Misc.DefeatedWoB"), () => ClamitySystem.downedWallOfBronze));
         }
     }
