@@ -18,12 +18,12 @@ RoseBow: {
 }
 
 WitheredBoneBow: {
-	// DisplayName: Wither Bane
+	// DisplayName: Увядающее проклятие
 	/* Tooltip:
 		'''
-		Converts wooden arrows to withered bone bolts
-		Bolts creates a copy behind player on hit up to two times
-		Bolts inflict Withered and have 15 armor penetration
-		'Did I hear someone say taco?'
+		Превращает деревянные стрелы в иссушающие костяные болты
+		Болты создают копию за игроком и наносят урон до двух раз
+		Болты накладывают дебафф Иссушение и игнорируют 15 единиц защиты противника
+		'Кто сказал тако?'
 		''' */
 }
