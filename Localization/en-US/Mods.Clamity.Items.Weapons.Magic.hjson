@@ -21,12 +21,12 @@ TheGenerator: {
 
 MoonstoneKnives: {
 	DisplayName: Moonstone Knives
-	Tooltip: Throws several knives that restore the users mana
+	Tooltip: Throws several knives that restore your mana
 }
 
 EtherealKnives: {
 	DisplayName: Ethereal Knives
-	Tooltip: Throws a stream of knives that restore the users mana
+	Tooltip: Throws a stream of knives that restore your mana
 }
 
 GaiaRose: {
