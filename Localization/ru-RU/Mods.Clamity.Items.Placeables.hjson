@@ -6,7 +6,7 @@ Relics: {
 
 	ClamitasRelic: {
 		DisplayName: Реликвия Кламитаса
-		Tooltip: Сделан с использованием адского камня
+		Tooltip: Сделана из адского камня
 	}
 
 	WoBRelic: {
