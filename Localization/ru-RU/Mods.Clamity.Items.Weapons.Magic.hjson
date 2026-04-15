@@ -7,10 +7,10 @@ Unicron: {
 	// DisplayName: Unicron
 	/* Tooltip:
 		'''
-		Fires a continuous array of lasers and spawns four Wingmen which orbit you and fire lasers or grenades at your cursor
-		Press <right> when firing to shoot an Omicron Beam that splits upon hitting an enemy
-		After firing an Unicron Beam your Wingmen will launch a pair of grenades
-		Hitting an enemy with an Omicron Beam right as it is fired will increase the damage done substantially and stop it from splitting
+		Стреляет продолжительным потоком лазеров и создаёт четырёх Ведомых, которые кружатся вокруг вас и стреляют лазерами или гранатами в позицию вашего курсора
+		Нажмите ПКМ пока стреляете чтобы выстрелить лучом Юникрона, который разделяется при попадании во врага
+		После выстрела лучом Юникрона ваши Ведомые выпустят пару гранат
+		Попадание лучом Юникрона увеличит урон и его снаряды перестанут разделяться
 		''' */
 }
 
@@ -25,11 +25,11 @@ MoonstoneKnives: {
 }
 
 EtherealKnives: {
-	// DisplayName: Ethereal Knives
-	// Tooltip: Throws a stream of knives that restore the users mana
+	// DisplayName: Эфирные ножи
+	// Tooltip: Кидает поток ножей, которые восстанавливают вашу ману
 }
 
 GaiaRose: {
-	// DisplayName: Gaia's Rose
-	// Tooltip: Casts a jungle flower that explodes into petals
+	// DisplayName: Роза Гайи
+	// Tooltip: Призывает джунглевый цветок, который разрывается на лепестки
 }
