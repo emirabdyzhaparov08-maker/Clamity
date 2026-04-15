@@ -3,7 +3,7 @@ SoulOfPyrogen: {
 	Tooltip:
 		'''
 		Увеличивает разбойный урон и урон ближнего боя на 10%
-		Истинные удары ближнего боя и скрытные удары создают выступающие из-под земли копь
+		Истинные удары ближнего боя и скрытные удары создают выступающие из-под земли копья
 		'''
 }
 
@@ -12,12 +12,12 @@ DraculasCharm: {
 	Tooltip:
 		'''
 		Увеличивает разбойный урон на 15% и максимальный запас скрытности на 10
-		Rogue critical strikes steal enemy life
-		Stealth strikes grant 15% critical strike chance and increased lifesteal to non-stealth strikes for 10 seconds
-		Stealth strikes inflict Heavy Bleeding and Armor Crunch, and deal 8% more damage
-		Stealth strikes summon a swarm of lifestealing vampire bats
-		Rogue projectiles explode into homing souls
-		'Possessing the talisman makes you yearn for blood and souls'
+		Разбойные критические удары крадут жизнь врагов
+		Скрытные удары увеличивают шанс критического удара и кражу жизни на 15% для обычных атак на 10 секунд
+		Скрытне удары накладывают дебаффы "Сильное кровотечение" и "Потресканная броня"(мб тут можно взять ключ дебаффов, но не уверен), а также наносят на 8% больше урона		
+		Скрытные удары призывают рой крадущих жизнь вампирских мыше
+		Разбойные снаряды разрываются самонаводящимися душами
+		'Владение талисманом заставляет вас жаждать крови'
 		'''
 }
 
@@ -48,13 +48,13 @@ SupremeBarrier: {
 	Tooltip:
 		'''
 		{$Mods.CalamityMod.Common.KnockbackImmunity}
-		Allows the ability to dash, empowered by a cosmic inferno
-		This dash can ram through enemies without taking damage
-		Releases a blast of homing star-bees[TOGGLE] and drenches you in [cbuff:Honey] after taking damage
-		Increases the length of invincibility, with it increasing even more when at low health or taking high damage attacks
-		Reduces damage taken by 25% when below 50% life
-		Absorbs 25% of damage done to players on your team when you are above 25% life
-		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
+		Позволяет совершить рывок, усиленный космическим инферно
+		Рывок позволяет проходить сквозь врагов, не получая урона
+		При получении урона выпускает рой самонаводящихся звёздный пчёл, увеличивая скорость передвижения и даёт бафф [cbuff:Honey]
+		Даёт дополнительные кадры неуязвимости; эффект усиливается при низком уровне здоровья
+		Снижает получаемый урон на 25%, если ваше здоровье ниже 50%
+		Перенаправляет на владельца щита 25% урона, нанесённого игрокам вашей команды, если здоровье владельца выше 25%
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:PanicNecklace] [c/aaaaaa:эффект ожерелья паники]
 		'''
 	ToggleEffect: ", increases movement speed,"
 }
@@ -100,8 +100,8 @@ Wings: {
 		DisplayName: Металлические крылья
 		Tooltip:
 			'''
-			После получения урона вы востанавливаете проценты времени полёта равному половины соотношения полученного урона к максимальному ХП
-			Когда надета Замороженная броня все игроки в вашей группе получают 20 увеличенной защиты
+			После получения урона вы востанавливаете процент времени полёта равный половине соотношению полученного урона к максимальному здоровью
+			Когда надета Замороженная броня все игроки в вашей группе получают дополнительно 20 единиц защиты
 			'''
 	}
 }
@@ -111,10 +111,10 @@ TreasureOfClamity: {
 	Tooltip:
 		'''
 		25 увеличенной силы рыбалки
-		Increases chance to catch crates and loot-containing fish by 15%
-		Crate catches are 25% more likely to be higher quality, accompanied by visual pearls
+		Увеличивает шанс поймать ящик и рыбу, содержущую предметы на 15%
+		Ловля ящиков может увеличить их качество на 25%, сопровождаемая жемчужинами
 		Количество вылавливаемой рыбы, использующийся для зелий, увеличены
-		Призывает водяной элементаль кто поможет защитить тебя when visibility is toggled on
+		Призывает водяной элементаль, сражающегося за вас when visibility is toggled on
 		'''
 }
 
@@ -128,16 +128,16 @@ TheSubcommunity: {
 	/* Tooltip:
 		'''
 		[STATS]
-		'The part of The (Calamity) Community'
-		'Has own its own specialization'
-		[c/B00BA5:Thank you to all of my supporters who made this addon a reality!]
+		"Часть Сообщества (Каламити)"
+		'Имеет собственное предназначение'
+		[c/B00BA5:Спасибо всем поддерживающим, которые помогли воплотить этот аддон в реальность!]
 		''' */
 	/* StatsList:
 		'''
-		Increases mining speed by {0}%
-		Increases luck by {1} and fishing power by {2}
-		Increases tile and wall placing speed by {3}% and placing range by {4}
-		Become more powerful as you defeat bosses ({5}% Power)
+		Увеличивает скорость копания на {0}%
+		Увеличивает удачу {1} и навык рыбной ловли на {2}
+		Увеличивает скорость размещения блоков и стен ан {3}% и дальность размещения на {4}
+		Становится более сильным с каждым убитым боссом ({5}% Сила)
 		''' */
 }
 
@@ -161,37 +161,39 @@ SharpAmethyst: {
 }
 
 BlightedSpyglass: {
-	// DisplayName: Blighted Spyglass
+	// DisplayName: Испорченная подзорная труба
 	/* Tooltip:
 		'''
-		+1 max sentry
-		Sentries inflict a [cbuff:CalamityMod/BrimstoneFlames]
+		+1 к стражам
+		Стражи накладывают дебафф [cbuff:CalamityMod/BrimstoneFlames]
 		''' */
 }
 
 CyanPearl: {
-	// DisplayName: Cyan Pearl
+	// DisplayName: Циановая жемчужина
 	/* Tooltip:
 		'''
-		+7% summon damage
-		Halves the summon damage penalty for sentries
+		+7% к урону призывателя
+		Снижает штраф к урону стражей наполовину
 		''' */
-	// HoldShiftTooltip: "  When holding non-summon  weapon sentries will deal 0.875x damage instead of 0.75x"
+	// HoldShiftTooltip: "Пока держишь не оружие призывателя, стражи будут наносить 0.875x урона, вместо 0.75x"
 }
 
 SkullOfTheBloodGod: {
-	// DisplayName: Skull of the Blood God
+	// DisplayName: Череп кровавого божества
 	/* Tooltip:
 		'''
-		15% increased damage and 13% increased critical strike chance
-		Critical strikes explode, causing nearby enemies to ignite with [cbuff:CalamityMod/BrimstoneFlames]
-		Halves enemy contact damage with a 20 second cooldown
-		[TOGGLE]Reduces damage taken from [cbuff:CalamityMod/BrimstoneFlames] by 50%
+		Увеличивает урон на 15% и шанс критического удара на 13%
+		
+		При критических ударах происходит взрыв, поджигающий ближайших врагов дебаффом [cbuff:CalamityMod/BrimstoneFlames]
+		Вдвое снижает контактный урон врагов
+		После получения контактного урона этот эффект перезаряжается 20 секунд
+		[TOGGLE]Снижает получаемый урон от дебаффа [cbuff:CalamityMod/BrimstoneFlames] на 50%
 		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:CalamityMod/VoidofCalamity] [c/aaaaaa:Void of Calamity's rain effect]
 		''' */
 	/* ToggleEffect:
 		'''
-		Brimstone fire rains down after getting hit
+		Серные огни при получении урона
 
 		''' */
 }
