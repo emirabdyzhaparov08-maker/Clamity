@@ -25,7 +25,7 @@ ExoBaguetteBuff: {
 
 BrimChairBuff: {
 	DisplayName: Brimthrone
-	Description: The seat is toasty, yet confortable.
+	Description: The seat is toasty, yet comfortable.
 }
 
 PlagueChairBuff: {
@@ -45,5 +45,5 @@ HeavyMetalTrashCanBuff: {
 
 TitanScalePotionBuff: {
 	DisplayName: Titan Scale
-	Description: Increcreses defense by 5, endurance by 5%, & melee knockback by 5%, with further increases on a true melee strike
+	Description: Increases defense by 5, damage reduction by 5%, & melee knockback by 5%, with further increases on a true melee strike
 }
