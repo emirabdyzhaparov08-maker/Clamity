@@ -7,5 +7,5 @@ Shortstrike: {
 	Lead: Increases damage reduction by 3% for 1 second on a shortstrike
 	Tungsten: Increases damage reduction by 4% for 1 second on a shortstrike
 	Platinum: Increases damage reduction by 6% for 1.2 seconds on a shortstrike
-	Gladius: Increases movement speed by 20% for half of a second on a shortstrike
+	Gladius: Increases movement speed by 20% for 0.5 seconds on a shortstrike
 }
