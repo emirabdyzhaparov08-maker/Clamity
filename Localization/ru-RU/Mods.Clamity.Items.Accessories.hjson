@@ -176,6 +176,7 @@ CyanPearl: {
 		+7% summon damage
 		Halves the summon damage penalty for sentries
 		''' */
+	// HoldShiftTooltip: "  When holding non-summon  weapon sentries will deal 0.875x damage instead of 0.75x"
 }
 
 SkullOfTheBloodGod: {
@@ -185,7 +186,12 @@ SkullOfTheBloodGod: {
 		15% increased damage and 13% increased critical strike chance
 		Critical strikes explode, causing nearby enemies to ignite with [cbuff:CalamityMod/BrimstoneFlames]
 		Halves enemy contact damage with a 20 second cooldown
+		[TOGGLE]Reduces damage taken from [cbuff:CalamityMod/BrimstoneFlames] by 50%
+		[c/aaaaaa:Shift-<right> this item in your inventory to toggle] [i:CalamityMod/VoidofCalamity] [c/aaaaaa:Void of Calamity's rain effect]
+		''' */
+	/* ToggleEffect:
+		'''
 		Brimstone fire rains down after getting hit
-		Reduces damage taken from [cbuff:CalamityMod/BrimstoneFlames] by 50%
+
 		''' */
 }

@@ -1,23 +1,30 @@
 Update 1.0.3.15 - Minor Balancing and Bugfix Patch
 
 New Content:
-None
+Added Gaia's Rose, the Mana Rose alternative with lingering petals and uses Jungle Rose in recipe
 
 Reworks:
-None
+Reworked Eye of Nove to be in-line with Eye of Magnus rework
 
 Removes:
-None
+Removed Calamity's Mana Rose recipe that uses Jungle Rose
 
 Balance Changes:
 Nerfed the damage of the Depths Echo Staff from 40 to 28
 Nerfed the damage of the Hellstone Shellfish Staff from 200 to 185
+Nerfed the damage of the Eye of NoveStaff from 400 to 350
+Removed hidden speed buff to Flame Cube compare to Exo Box
+Removed speed nerf to Plague Station and changed to be skin variant of Exo Box
+Plague Station no longer drops from The Plaguebringer Goliath and now obtaned by craft from Exo Box
 
 Other Changes:
 Renamed Pearl of Fish Calamity to Treasure of Clamity
+Renamed Flame Cube to Exo Box: Calamity Edition
+Renamed Plague Station to Exo Box: Plague Edition
+Updated Skinned Exo Box tooltips
 
 Bug Fixes:
 Fixed some of the tooltips to match the new format of Calamity tooltips
 Fixed a bug that caused The Subcommunity to gain a negative mining boost
 Fixed a bug that caused the Wulfrum Lure to fire bobbers without charge or expending Wulfrum Scrap.
-Fixed Auric Kunai still requiring 100 Lunar Kunai's in it's recipe.
+Fixed Auric Kunai still requiring 100 Lunar Kunai's in it's recipe

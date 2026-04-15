@@ -28,3 +28,8 @@ EtherealKnives: {
 	DisplayName: Ethereal Knives
 	Tooltip: Throws a stream of knives that restore the users mana
 }
+
+GaiaRose: {
+	DisplayName: Gaia's Rose
+	Tooltip: Casts a jungle flower that explodes into petals
+}
