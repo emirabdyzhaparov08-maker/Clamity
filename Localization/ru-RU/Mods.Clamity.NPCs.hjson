@@ -19,7 +19,7 @@ PyrogenBoss: {
 }
 
 Stupid.DisplayName: Легендарный высший среди высших Каламитас самого высшего в одежде Ксерока из Суприма
-// StormElemental.DisplayName: Storm Elemental
+// StormElemental.DisplayName: Штормовой элементаль
 PyrogenShield.DisplayName: Щит Пирогена
 WallOfBronzeTorret.DisplayName: Бронзовая турель
 WallOfBronzeLaser.DisplayName: Бронзовая лазерная машина
@@ -27,11 +27,11 @@ WallOfBronzeClaw.DisplayName: Бронзовый коготь
 
 WallOfBronze: {
 	DisplayName: Стена бронзы
-	Bestiary: Древняя машина, хранитель более могущественной духов, чем духи после Стены из плоти. Одна из духов могут заморозить такое жаркое место, как преисподня
+	Bestiary: Древняя машина, хранитель более могущественной духов, чем духи после Стены плоти. Один из духов могут заморозить такое жаркое место, как преисподняя
 
 	BossChecklistIntegration: {
-		// SpawnInfo: Right Click on a placed [i:Clamity/AncientConsole] Ancient Console in the Underworld
-		// DespawnMessage: "[c/FFD700:The titanic machine continues its endless journey through Hell.]"
+		// SpawnInfo: ПКМ по размёщённой [i:Clamity/AncientConsole] Древней консоли в преисподнии
+		// DespawnMessage: "[c/FFD700:Титаническая машина продолжает своё путешествие по преисподнии.]"
 	}
 }
 
@@ -45,7 +45,7 @@ GlacialSlime: {
 	Bestiary: Лавовый слизень, который питался мощной душой мороза. Слизень пытался взорваться, но разница температур превратила его попытки в шипы
 }
 
-// MetalMaw.DisplayName: Metal Maw
-// MechanicalLeechTail.DisplayName: Mechanical Leech
-// MechanicalLeechHead.DisplayName: Mechanical Leech
-// MechanicalLeechBody.DisplayName: Mechanical Leech
+// MetalMaw.DisplayName: Металлическая пасть
+// MechanicalLeechTail.DisplayName: Механическая пиявка
+// MechanicalLeechHead.DisplayName: Механическая пиявка
+// MechanicalLeechBody.DisplayName: Механическая пиявка
