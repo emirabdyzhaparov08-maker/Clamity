@@ -7,7 +7,7 @@ Items: {
 				Materializes a quite cozy and extremely nimble flying Calamitas-styled Exo throne
 				Hold [KEY] while sitting in the throne to move slower for more precision
 				'An angry gamer is a very dangerous gamer'
-				'Side Note: He fire protective if you forgot'
+				'Side Note: He fire projectile(maybe?) if you forgot'
 				'''
 		}
 
@@ -114,7 +114,7 @@ Dialogues: {
 			Text1: Arh!
 			Text2: Oh..
 			Text3: Last godslayer is fall.
-			Text4: I not powerful. I make a lot of mistakes
+			Text4: I am not powerful. I make a lot of mistakes
 			Text5: This place is my final battle. But not war
 			Text6: Oh... You need continue my misson
 		}
