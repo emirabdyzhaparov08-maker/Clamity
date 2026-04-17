@@ -12,6 +12,8 @@ None
 Balance Changes:
 Nerfed the damage of the Depths Echo Staff from 40 to 28
 Nerfed the damage of the Hellstone Shellfish Staff from 200 to 185
+Buffed the damage of Auric Kunai from 140 to 145
+Adjusted Auric Kunai's use time from 1 to 3, use animation from 10 to 9, and removed reuse delay.
 Pyro Stone now inflicts Brimstone Flames for 1 second instead of Dragonfire for half a second
 
 Other Changes:
@@ -24,3 +26,4 @@ Fixed some of the tooltips to match the new format of Calamity tooltips
 Fixed a bug that caused The Subcommunity to gain a negative mining boost
 Fixed a bug that caused the Wulfrum Lure to fire bobbers without charge or expending Wulfrum Scrap.
 Fixed Auric Kunai still requiring 100 Lunar Kunai's in it's recipe.
+Fixed Auric Kunai not being able to generate stealth.
