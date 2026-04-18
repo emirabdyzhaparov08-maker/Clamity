@@ -1,7 +1,7 @@
-Update 1.0.3.15 - ???
+Update 1.0.4 - ???
 
 Additions:
-Added Gaia's Rose, the Mana Rose alternative with lingering petals and uses Jungle Rose in recipe.
+Added the Gaia's Rose, a Mana Rose alternative with lingering petals that uses Jungle Rose in recipe instead.
 
 Reworks:
 Reworked Eye of Nove to be in-line with Eye of Magnus rework.
