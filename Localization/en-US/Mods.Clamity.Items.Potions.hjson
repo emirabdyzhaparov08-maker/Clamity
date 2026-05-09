@@ -3,8 +3,12 @@ Foods: {
 		DisplayName: Auric Apple
 		Tooltip:
 			'''
-			Minor improvements to all stats for an entire hour
-			'yeah my brain is rotting from today, I read Auric Soul as Auric Fruit' - YuH
+			{$CommonItemTooltip.MinorStats} for an entire hour
+			[c/FFBA3A:"]
+			 [c/FFBA3A:yeah my brain is rotting from today,]
+			 [c/FFBA3A:I read Auric Soul as Auric Fruit']
+			                                  " 
+			             [c/FFBA3A:- YuH, Calamity Community Remix developer]
 			'''
 	}
 
@@ -24,24 +28,24 @@ Foods: {
 
 	Eldercherry: {
 		DisplayName: Eldercherry
-		Tooltip: Medium improvements to all stats
+		Tooltip: "{$CommonItemTooltip.MediumStats}"
 	}
 
 	EldercherryJuice: {
 		DisplayName: Eldercherry Juice
-		Tooltip: Major improvements to all stats
+		Tooltip: "{$CommonItemTooltip.MajorStats}"
 	}
 
 	SlagspitterPauldron: {
-		DisplayName: Slagspitter Pauldron
-		Tooltip: Major improvements to all stats
+		DisplayName: Balanôn itil
+		Tooltip: "{$CommonItemTooltip.MajorStats}"
 	}
 
 	ClamChowder: {
 		DisplayName: Clam Chowder
 		Tooltip:
 			'''
-			Medium improvements to all stats
+			{$CommonItemTooltip.MediumStats}
 			'New Ilmeris style'
 			'''
 	}
@@ -62,7 +66,7 @@ Foods: {
 		DisplayName: Calamitea
 		Tooltip:
 			'''
-			Major improvements to all stats
+			{$CommonItemTooltip.MajorStats}
 			'Quite the Calamity'
 			'''
 	}
